@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: rgb(227, 222, 222);
+
+}
+header{
+    position: sticky;
+    top:0;
+    
+    background: white;
+    padding-top: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.flex{
+    display: flex;
+}
+.left img{
+    width: 83px;
+    height: 60px;
+    margin-left: 120px;
+    padding-top: 0px;
+    
+}
+.container{
+    padding:0 10vm;   
+}
+nav ul li{
+    list-style:none;
+    padding: 0  13px;
+    font-size: 12px;
+}
+input{
+    height: 30px;
+    width: 25rem;
+    padding: 4px 10px;
+    border-radius: 5px;
+    background: rgb(229, 232, 237);
+}
+.section1{
+    background: rgb(227, 222, 222);
+       
+}
+.right{
+    margin-right: 200px;
+}
+.new{
+    padding: 10px;
+    width: 80vw;
+    border-radius: 20px;
+    height: 50vh;
+    
+}
+.offer{
+    height: 200px;
+    width: 80vw;
+    border-radius: 10px;
+}
+.img-flex{
+    height: 30vh;
+    width: 20vw;
+    padding: 20px 0px;
+}
+h2{
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    padding-left: 20px;
+}
+footer{
+    padding:23px;
+    text-align: center;
+}
